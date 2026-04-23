@@ -1,0 +1,16 @@
+we have at least a 19 table from the relational schema 
+Important parts of the system:
+1- Person : to restore the person's Data , before signing him in the system, and to be ready to the
+future persons if added to the system.
+2- User : is the main unit in the system that can take tests and if pass it take the license, and be a driver too
+3- test : is the object that the user should pass to get the license desired
+4- test class : the blueprint of the tast specification to be conseder and the test type and minimum degree
+to pass the test
+5- license class : is the blueprint of the license found that has the Important info about license,
+it mostly won't change a lot and if changed it won't destroy the logic
+6- license class history : is the part of the license that track Important dynamic info about the license
+that may more likely to change in time and date is in it to restore different changes and save it 
+to use it in -Driver license-
+7- Driver license : Every Driver have at least One , it is an Important enitiy in the system
+to track driver and give the futures needed in requirements
+8- license fee : it is the part that track different fees for each license 
