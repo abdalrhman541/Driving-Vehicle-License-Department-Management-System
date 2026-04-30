@@ -8,6 +8,6 @@ namespace DVLD_DataAccess_Layer
 {
     internal class clsDataAccessSettings
     {
-        public string connectionString = "Server =.; Database = DVLDDB; User Id = sa; Password = sa123456;";
+        public static string connectionString = "Server =.; Database = DVLDDB; User Id = sa; Password = sa123456;";
     }
 }
